@@ -7,7 +7,7 @@ const handleToggle = () => setToggle(!toggle);
 
 return (
   <header className="flex justify-between px-5 py-4 bg-[#161616] text-white fixed w-full z-10 shadow-md">
-    <a href="/Portfolio" className="logo text-2xl font-bold text-[#10b981]">
+    <a href="/portfolio" className="logo text-2xl font-bold text-[#10b981]">
     Jo Giglio
     </a>
     {/* Desktopppppp */}
