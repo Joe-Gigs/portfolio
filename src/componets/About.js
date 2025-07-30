@@ -12,20 +12,20 @@ const About = () => {
           </h2>
 
             <p className="pb-5 text-[#bbf7d0]">
-              I've been a web developer for over 5 years, specializing in creating beautiful and functional websites. I have a passion for coding and love to learn new technologies.
+              Self taught web developer with real world experience in building responsive and accessible web applications.
             </p>
 
             <p className="pb-5 text-[#bbf7d0]">
+              Musician and producer for over 20 years. Tracks on Spotify, Apple Music, and all major platforms. Multi-instrumentalist who loves to learn and create.
+            </p>
+
+            {/* <p className="pb-5 text-[#bbf7d0]">
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
             </p>
 
             <p className="pb-5 text-[#bbf7d0]">
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-            </p>
-
-            <p className="pb-5 text-[#bbf7d0]">
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-            </p>
+            </p> */}
 
           </div>
 

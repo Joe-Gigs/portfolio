@@ -9,13 +9,13 @@ const webProjectsData = [
     name: "",
     img: require("../assets/nycda.jpg"),
     link: "https://www.youtube.com/playlist?list=PLgIwF_OCW0vasu0xe-uN423Wx8JGp3uyc",
-    desc: "NextBlog is a Next.js and Sanity starter kit that allows you to create a fully-functional blog with Next.js and Sanity. It comes with Stripe integration for easy payments.",
+    desc: "Contributed to the development of a web platform for the New York Code and Design Academy, a coding bootcamp.",
   },
   {
     name: "",
      img: require("../assets/superfood.png"),
     link: "https://globalgamejam.org/games/2025/personal-bubble-re-cover-letter-1",
-    desc: "Solid is a Next.js boilerplate & starter kit that allows you to quickly lunch your own SaaS application with ease. It comes with Stripe, NextAuth, and many more essential integrations",
+    desc: "Built a landing page for food startup Superfood product using HTML, CSS, and JavaScript.",
   },
   {
     name: "",

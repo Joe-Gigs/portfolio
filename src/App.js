@@ -12,7 +12,7 @@ function App() {
        <Header />
       <Routes>
 
-        <Route path="/Portfolio" element={ <Hero /> } />
+        <Route path="/portfolio" element={ <Hero /> } />
         <Route path="/about" element={ <About /> } />
         <Route path="/projects" element={ <Projects /> } />
       </Routes>

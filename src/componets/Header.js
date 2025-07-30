@@ -14,7 +14,7 @@ return (
     <nav className="hidden md:block">
       <ul className="flex space-x-6">
         <li>
-          <Link to="/Portfolio" className="hover:text-[#10b981] transition-colors duration-300">
+          <Link to="/portfolio" className="hover:text-[#10b981] transition-colors duration-300">
           Home</Link>
         </li>
         <li>
