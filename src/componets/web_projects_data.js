@@ -21,7 +21,7 @@ const webProjectsData = [
     name: "",
     img: require("../assets/optify.png"),
     link: "https://globalgamejam.org/games/2025/personal-bubble-re-cover-letter-1",
-    desc: "Solid is a Next.js boilerplate & starter kit that allows you to quickly lunch your own SaaS application with ease. It comes with Stripe, NextAuth, and many more essential integrations",
+    desc: "Web platform for life coaches to manage their clients and sessions, built with Ruby on Rails.",
   }
 
 
