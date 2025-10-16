@@ -6,6 +6,8 @@ import About from './componets/About';
 import Projects from './componets/Projects';
 import Audioreel from './componets/Audioreel';
 
+let boo;
+
 
 function App() {
   return (
