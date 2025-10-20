@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.f9ad21ec.css",
+    "main.js": "/portfolio/static/js/main.32a50212.js",
+    "static/js/453.3ecabe31.chunk.js": "/portfolio/static/js/453.3ecabe31.chunk.js",
+    "static/media/bubble.png": "/portfolio/static/media/bubble.d261237abc36c6edc369.png",
+    "static/media/tune1.mp3": "/portfolio/static/media/tune1.364de82e3dd83fc42f7e.mp3",
+    "static/media/dreamsost.png": "/portfolio/static/media/dreamsost.974029162c0d9ebc9646.png",
+    "static/media/kitty.png": "/portfolio/static/media/kitty.9314794988240e82bf2b.png",
+    "static/media/fallen_angel.png": "/portfolio/static/media/fallen_angel.36a5c82dd680237fc4b7.png",
+    "static/media/optify.png": "/portfolio/static/media/optify.6c90f6e300357cb309d2.png",
+    "static/media/tune2.mp3": "/portfolio/static/media/tune2.020871e3f811005bcbf8.mp3",
+    "static/media/nofraud.png": "/portfolio/static/media/nofraud.aa7baf529392625d2816.png",
+    "static/media/mochi.jpg": "/portfolio/static/media/mochi.e62974c2913185dd5565.jpg",
+    "static/media/superfood.png": "/portfolio/static/media/superfood.b0180c4683ed9f193134.png",
+    "static/media/nycda.jpg": "/portfolio/static/media/nycda.cf47a13b3db8f5621847.jpg",
+    "static/media/after_life.png": "/portfolio/static/media/after_life.ddebf4d2f37dc1da13bd.png",
+    "index.html": "/portfolio/index.html",
+    "main.f9ad21ec.css.map": "/portfolio/static/css/main.f9ad21ec.css.map",
+    "main.32a50212.js.map": "/portfolio/static/js/main.32a50212.js.map",
+    "453.3ecabe31.chunk.js.map": "/portfolio/static/js/453.3ecabe31.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9ad21ec.css",
+    "static/js/main.32a50212.js"
+  ]
+}
