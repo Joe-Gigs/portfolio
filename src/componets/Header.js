@@ -25,6 +25,10 @@ return (
           <Link to="/projects" className="hover:text-[#10b981] transition-colors duration-300">
           Projects</Link>
         </li>
+        <li>
+          <Link to="/audioreel" className="hover:text-[#10b981] transition-colors duration-300">
+          Audio Reel</Link>
+        </li>
       </ul>
     </nav>
     {/* Mobile */}
