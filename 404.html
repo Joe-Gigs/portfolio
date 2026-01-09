@@ -4,20 +4,21 @@
     <meta charset="utf-8"/>
     <title>Redirecting...</title>
     <style>
-      body { margin: 0; background: #000; }
+      body { margin: 0; background: #000; color: #fff; font-family: Arial, sans-serif; }
+      .debug { position: fixed; top: 10px; left: 10px; font-size: 12px; }
       .loader { 
         position: fixed; top: 50%; left: 50%; 
         transform: translate(-50%, -50%);
-        color: #fff; font-family: Arial, sans-serif;
       }
     </style>
     <script type="text/javascript">
       // Single Page Apps for GitHub Pages - Instant redirect
-      // https://github.com/rafgraph/spa-github-pages
       
       var pathSegmentsToKeep = 1; // Set to 1 for /portfolio subdirectory
       
       var l = window.location;
+      console.log('404 page - Original URL:', l.href);
+      
       var redirect = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
         l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + 
         '/?/' + 
@@ -25,11 +26,17 @@
         (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
         l.hash;
       
+      console.log('404 page - Redirecting to:', redirect);
+      document.getElementById('debug').innerHTML = 'Redirecting from: ' + l.href + '<br>To: ' + redirect;
+      
       // Immediate redirect
-      l.replace(redirect);
+      setTimeout(function() {
+        l.replace(redirect);
+      }, 500); // Small delay to see the debug info
     </script>
   </head>
   <body>
+    <div id="debug" class="debug"></div>
     <div class="loader">Redirecting...</div>
   </body>
 </html>
