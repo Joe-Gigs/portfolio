@@ -2,23 +2,34 @@
 <html lang="en">
   <head>
     <meta charset="utf-8"/>
+    <title>Redirecting...</title>
+    <style>
+      body { margin: 0; background: #000; }
+      .loader { 
+        position: fixed; top: 50%; left: 50%; 
+        transform: translate(-50%, -50%);
+        color: #fff; font-family: Arial, sans-serif;
+      }
+    </style>
     <script type="text/javascript">
-      // Single Page Apps for GitHub Pages
+      // Single Page Apps for GitHub Pages - Instant redirect
       // https://github.com/rafgraph/spa-github-pages
-      // Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
       
       var pathSegmentsToKeep = 1; // Set to 1 for /portfolio subdirectory
       
       var l = window.location;
-      l.replace(
-        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+      var redirect = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
         l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + 
         '/?/' + 
         l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') + 
         (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-        l.hash
-      );
+        l.hash;
+      
+      // Immediate redirect
+      l.replace(redirect);
     </script>
   </head>
-  <body></body>
+  <body>
+    <div class="loader">Redirecting...</div>
+  </body>
 </html>
