@@ -5,12 +5,14 @@
     <title>Redirecting...</title>
     <style>
       body { margin: 0; background: #000; color: #fff; font-family: Arial, sans-serif; }
-      .debug { position: fixed; top: 10px; left: 10px; font-size: 12px; }
       .loader { 
         position: fixed; top: 50%; left: 50%; 
         transform: translate(-50%, -50%);
       }
     </style>
+  </head>
+  <body>
+    <div class="loader">Redirecting...</div>
     <script type="text/javascript">
       // Single Page Apps for GitHub Pages - Instant redirect
       
@@ -27,16 +29,9 @@
         l.hash;
       
       console.log('404 page - Redirecting to:', redirect);
-      document.getElementById('debug').innerHTML = 'Redirecting from: ' + l.href + '<br>To: ' + redirect;
       
       // Immediate redirect
-      setTimeout(function() {
-        l.replace(redirect);
-      }, 500); // Small delay to see the debug info
+      l.replace(redirect);
     </script>
-  </head>
-  <body>
-    <div id="debug" class="debug"></div>
-    <div class="loader">Redirecting...</div>
   </body>
 </html>
